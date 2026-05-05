@@ -5,7 +5,7 @@
 
 ## BLOQUE 0 — ¿Qué vamos a hacer aquí?
 
-Imaginate que tenés acceso a las coordenadas precisas, los colores y las velocidades de **más de mil millones de estrellas**. No estrellas inventadas en una simulación: estrellas reales de la Vía Láctea, observadas durante años por un satélite de la Agencia Espacial Europea llamado **Gaia**.
+Imaginate que tienes acceso a las coordenadas precisas, los colores y las velocidades de **más de mil millones de estrellas**. No estrellas inventadas en una simulación: estrellas reales de la Vía Láctea, observadas durante años por un satélite de la Agencia Espacial Europea llamado **Gaia**.
 
 Eso es exactamente lo que existe. Y es exactamente lo que vamos a usar.
 
