@@ -1,0 +1,41 @@
+# Bytecode y caché de Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Descargas incompletas
+*.tmp
+
+# Logs generados en ejecución
+*.log
+data/logs/
+
+# Archivos comprimidos
+*.zip
+
+# Datos astronómicos descargados (pueden ser muy grandes)
+data/FITS_BANDAS/*.tmp
+data/FITS_BANDAS/*.fits
+data/FITS_BANDAS/*.bz2
+
+# Archivos de datos generados por el pipeline (no van al repo)
+data/*.parquet
+data/*.csv
+data/*.h5
+
+# Reportes generados
+*.pdf
+
+# Entornos virtuales
+venv/
+.venv/
+env/
+
+# Scripts de otros proyectos (no pertenecen al pipeline Gaia)
+train_gp.py
+vacuum_energy.py
+
+# IDEs
+.vscode/
+.idea/
+*.swp

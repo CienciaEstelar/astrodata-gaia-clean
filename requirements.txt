@@ -1,0 +1,22 @@
+# Pipeline Gaia DR3 — Dependencias
+# Instalar con: pip install -r requirements.txt
+
+# Núcleo científico
+numpy>=1.24
+pandas>=2.0
+astropy>=5.3
+astroquery>=0.4.6
+matplotlib>=3.7
+scipy>=1.11
+
+# Interfaz de consola enriquecida
+rich>=13.0
+
+# Formatos de datos
+pyarrow>=12.0      # requerido para leer/escribir Parquet (Scripts 02-07)
+h5py>=3.9          # requerido para exportar simulación N-cuerpos (Script 07)
+
+# Opcionales — el pipeline funciona sin ellos, pero con menor rendimiento
+# numba>=0.57        # JIT compiler: speedup 50-100x en Script 07 (recomendado)
+# joblib>=1.3        # paralelización en Script 03 para catálogos >500k filas
+# sympy>=1.12        # validación simbólica del integrador en Script 00 y 07
